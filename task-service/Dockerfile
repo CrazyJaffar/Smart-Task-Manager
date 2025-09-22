@@ -1,6 +1,10 @@
-FROM eclipse-temurin:17-jre-alpine
-WORKDIR /app
-COPY target/task-service-*.jar app.jar
-EXPOSE 8082
-ENTRYPOINT ["java", "-jar", "app.jar"]
+FROM eclipse-temurin:17-jdk-alpine
 
+WORKDIR /app
+
+COPY target/task-service-*.jar app.jar
+
+# Task service port
+EXPOSE 8082
+
+ENTRYPOINT ["java", "-jar", "app.jar"]
