@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Smart Task Manager</h1>
+    <div id="task-form">
+        <input type="text" id="task-title" placeholder="Task Title">
+        <input type="text" id="task-desc" placeholder="Task Description">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+    <div id="tasks"></div>
+    <script src="app.js"></script>
+</body>
+</html>
+server.port=8761
+spring.application.name=eureka-server
+# Disable Eureka client registration for server
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+
