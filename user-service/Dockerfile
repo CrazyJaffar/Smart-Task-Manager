@@ -2,7 +2,7 @@ FROM eclipse-temurin:17-jdk-alpine
 
 WORKDIR /app
 
-COPY target/user-service-*.jar app.jar
+COPY target/user-service-1.0.0.jar app.jar
 
 # User service port
 EXPOSE 8081
