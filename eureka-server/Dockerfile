@@ -1,14 +1,10 @@
-# Use official OpenJDK 17 image
-# Use official OpenJDK 17 image
-FROM eclipse-temurin:17-jdk-alpine
-
+FROM maven:3.9.6-eclipse-temurin-17 AS build
 WORKDIR /app
+COPY . .
+RUN mvn clean package -DskipTests
 
-# Copy the built jar with exact filename
-COPY target/eureka-server-1.0.0.jar app.jar
-
-# Eureka default port
+FROM eclipse-temurin:17-jdk-alpine
+WORKDIR /app
+COPY --from=build /app/target/eureka-server-1.0.0.jar app.jar
 EXPOSE 8761
-
-# Run the service
 ENTRYPOINT ["java", "-jar", "app.jar"]

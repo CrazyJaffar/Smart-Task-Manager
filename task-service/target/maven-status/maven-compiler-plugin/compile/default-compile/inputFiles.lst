@@ -1,7 +1,7 @@
-E:\Smart Task Manager\task-service\src\main\java\org\example\taskservice\config\OpenApiConfig.java
-E:\Smart Task Manager\task-service\src\main\java\org\example\taskservice\config\SecurityConfig.java
-E:\Smart Task Manager\task-service\src\main\java\org\example\taskservice\controller\TaskController.java
-E:\Smart Task Manager\task-service\src\main\java\org\example\taskservice\model\Task.java
-E:\Smart Task Manager\task-service\src\main\java\org\example\taskservice\repository\TaskRepository.java
-E:\Smart Task Manager\task-service\src\main\java\org\example\taskservice\service\TaskService.java
-E:\Smart Task Manager\task-service\src\main\java\org\example\taskservice\TaskServiceApplication.java
+E:\Smart-Task-Manager\task-service\src\main\java\org\example\taskservice\config\OpenApiConfig.java
+E:\Smart-Task-Manager\task-service\src\main\java\org\example\taskservice\config\SecurityConfig.java
+E:\Smart-Task-Manager\task-service\src\main\java\org\example\taskservice\controller\TaskController.java
+E:\Smart-Task-Manager\task-service\src\main\java\org\example\taskservice\model\Task.java
+E:\Smart-Task-Manager\task-service\src\main\java\org\example\taskservice\repository\TaskRepository.java
+E:\Smart-Task-Manager\task-service\src\main\java\org\example\taskservice\service\TaskService.java
+E:\Smart-Task-Manager\task-service\src\main\java\org\example\taskservice\TaskServiceApplication.java
