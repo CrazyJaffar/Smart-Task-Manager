@@ -1,0 +1,4 @@
+org\example\userservice\repository\UserRepository.class
+org\example\userservice\model\User.class
+org\example\userservice\UserServiceApplication.class
+org\example\userservice\service\UserService.class

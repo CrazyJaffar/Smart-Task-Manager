@@ -1,0 +1,6 @@
+org\example\taskservice\service\TaskService.class
+org\example\taskservice\model\Task.class
+org\example\taskservice\controller\TaskController.class
+org\example\taskservice\repository\TaskRepository.class
+org\example\taskservice\TaskServiceApplication.class
+org\example\taskservice\config\OpenApiConfig.class
